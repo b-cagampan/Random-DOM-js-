@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Folder 1/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="lmode" class="sun">
+        <button id="l_btn">🔆</button>
+    </div>
+
+    <div class="searchBar" id="searchBar">
+        <input type="text" placeholder="search..." class="search-inp" id="s_inp">
+        <button
+         id="search-btn" class="search-btn">🔎</button>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <button class="accordion">Section 1</button>
+            <p class="panel">Panel 1</p>
+            <button class="accordion">Section 2</button>
+            <p class="panel">Panel 2</p>
+            <button class="accordion">Section 3</button>
+            <p class="panel">Panel 3</p>
+        </div>
+    </div>
+    <script src="func.js"></script>
+</body>
+</html>
